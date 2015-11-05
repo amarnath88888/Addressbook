@@ -1,0 +1,27 @@
+* Create a login page(home.jsp)
+* Create a registeration page (register.jsp)
+* create a registration success page (success.jsp)
+* create a error page (error.jsp)
+* create a welcome page (welcome.jsp)
+
+* create a property file for DB settings
+
+* create a dbaccess class(singleton) for getting DBinstance
+* create a class for initializing property 
+* Create Constants classes for constants
+
+* create a bean class for storing userdetails in it
+
+* From register page redirect to sigup controller servlet
+
+* Create  a model class UserCreation to save user details and check isUserAvailable(). If not create a new user
+
+* from signup controller servlet check for user availablility and redirect to error page if user already available. Else check if if we can create a new user. If created then redirect to success page, else redirect to error page.
+
+* From login page redirect to sigin controller servlet
+
+* from signin controller servlet check if isValidUser(). If valid then redirect to welcome page, else redirect to error page.
+
+* Edit welcome.jsp page to track session.
+
+* create addcontact.jsp,viewcontacts.jsp, searchcontacts.jsp
